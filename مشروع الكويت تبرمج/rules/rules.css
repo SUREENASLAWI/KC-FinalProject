@@ -1,0 +1,180 @@
+body{
+    background-color: rgb(240, 235, 229);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ header li , header a {
+    font-size: 18px;
+    font-weight: 500;
+    color: #A987AF;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+    background-color:  #efbec6af;
+    max-width: 1366px;
+    margin: 0 auto;
+    
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    order: 1;
+}
+ nav .logo{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+
+}
+
+
+.nav-links{
+    list-style: none;
+
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover{
+    color:#74527a;
+}
+
+.cta{
+    order: 2;
+}
+
+.ti{
+    font-size: 50px;
+    color: #A987AF;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+    margin-right: 30px;
+
+}
+
+.ul-li{
+    font-size: 28px;
+    color: black;
+    padding: 0px 20px;
+}
+
+nav{
+    order: 1;
+}
+
+#a{
+    padding: 5px;
+    margin: 5px;
+    margin-right: 30px;
+}
+
+#b{
+    padding: 5px;
+    margin: 5px;
+    margin-right: 30px;
+
+}
+
+#c{
+    padding: 5px;
+    margin: 5px;
+    margin-right: 30px;
+
+}
+
+#d{
+    padding: 5px;
+    margin: 5px;
+    margin-right: 30px;
+
+}
+
+#e{
+    padding: 5px;
+    margin: 5px;
+    margin-right: 30px;
+
+}
+
+#f{
+    padding: 5px;
+    margin: 5px;
+    margin-right: 30px;
+}
+
+#g{
+    padding: 5px;
+    margin: 5px;
+    margin-right: 30px;
+}
+
+.footer{
+    margin-top: 150px;
+    width: 100%;
+    padding: 30px 13%;
+    background-color:#efbec6af ;
+    display: flex;
+}
+
+.footer div{
+    text-align: center;
+}
+
+.col-2{
+    flex-grow: 2;
+}
+
+.footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.col-1 a {
+    display: block;
+    text-decoration: none;
+    color:#4e547e;
+    margin-bottom: 10px;
+}
+
+form input{
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+}
+
+form button{
+    background: transparent;
+    border: 2px solid  #4e547e ;
+    color: #4e547e;
+    border-radius: 30px ;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
