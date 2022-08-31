@@ -1,5 +1,6 @@
 body{
     background-color: rgb(240, 235, 229);
+    text-transform: uppercase;
 }
 
 *{
@@ -23,7 +24,6 @@ header{
     background-color:  #efbec6af;
     max-width: 1366px;
     margin: 0 auto;
-    
 }
 
 .logo{
@@ -35,13 +35,14 @@ header{
     display: flex;
     cursor: pointer;
     align-items: center;
-
 }
 
+nav{
+    order: 1;
+}
 
 .nav-links{
     list-style: none;
-
 }
 
 .nav-links li{
@@ -61,85 +62,13 @@ header{
     order: 2;
 }
 
-.ti{
-    font-size: 50px;
-    color: #A987AF;
-    align-items: center;
-    padding: 5px;
-    margin: 5px;
-    margin-right: 30px;
-
-}
-
-.ul-li{
-    font-size: 28px;
-    color: black;
-    padding-right: 30px;
-}
-
-.ol-li{
-    font-size: 28px;
-    color: black;
-    padding-right: 30px;
-}
-
-
-nav{
-    order: 1;
-}
-
-#a{
-    padding: 5px;
-    margin: 5px;
-    margin-right: 30px;
-}
-
-#b{
-    padding: 5px;
-    margin: 5px;
-    margin-right: 30px;
-
-}
-
-#c{
-    padding: 5px;
-    margin: 5px;
-    margin-right: 30px;
-
-}
-
-#d{
-    padding: 5px;
-    margin: 5px;
-    margin-right: 30px;
-
-}
-
-#e{
-    padding: 5px;
-    margin: 5px;
-    margin-right: 30px;
-
-}
-
-#f{
-    padding: 5px;
-    margin: 5px;
-    margin-right: 30px;
-}
-
-#g{
-    padding: 5px;
-    margin: 5px;
-    margin-right: 30px;
-}
-
 .footer{
     margin-top: 150px;
     width: 100%;
     padding: 30px 13%;
     background-color:#efbec6af ;
     display: flex;
+    
 }
 
 .footer div{
@@ -184,59 +113,53 @@ form button{
     cursor: pointer;
 }
 
-#aa{
-    padding: 5px;
-    margin: 5px;
-    margin-right: 30px;
+#h1{
+    margin-bottom: 25px;
+    margin-top: 0;
+    font-size: 60px;
+    font-weight: bolder;
+    color: #A987AF;
 }
 
-#bb{
-    padding: 5px;
-    margin: 5px;
-    margin-right: 30px;
-
+.m{
+    background-color: #efbec6af;
+    width: 77%;
+    text-align: center;
+    margin: 100px;
+    padding: 40px;
+    border: 10px solid black;
 }
 
-#cc{
-    padding: 5px;
-    margin: 5px;
-    margin-right: 30px;
-
+form{
+    padding: 40px;
+    width: 60%;
+    margin: auto;
 }
 
-#dd{
-    padding: 5px;
-    margin: 5px;
-    margin-right: 30px;
-
+.fild{
+    margin-bottom: 25px;
+    width: 100%;
+    display: grid;
+    position: relative;
 }
 
-#ee{
-    padding: 5px;
-    margin: 5px;
-    margin-right: 30px;
-
+.label{
+    color: #A987AF;
+    font-size: xx-large;
+    letter-spacing: 2px;
+    padding: 0;
+    font-weight: bolder;
 }
 
-#ff{
-    padding: 5px;
-    margin: 5px;
-    margin-right: 30px;
-}
-
-#gg{
-    padding: 5px;
-    margin: 5px;
-    margin-right: 30px;
-}
-
-#container2{
-    padding-top: 100px;
-}
-
-#container1{
-    padding-top: 30px;
+.input{
+    height: 50px;
+    padding: 1px;
 }
 
 
-
+#send{
+    height: 50px;
+    width: 150px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
