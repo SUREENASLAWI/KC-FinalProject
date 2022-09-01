@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>انشاء عضوية</title>
     <link rel="stylesheet" href="./membership.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css">
+
 </head>
 
 <link rel="icon" href="./img/logo done.png">
@@ -29,10 +32,12 @@
 
 
     </header>
-
-    <section class="m">
+    <section class="m" data-aos="zoom-out-up">
         <h1 id="h1">انشئ عضويتك للكتب الورقية </h1>
-        <form action="https://formsubmit.co/sureen130@gmail.com" method="POST">
+        <form target="_blank" action="https://formsubmit.co/sureen130@gmail.com" method="POST">
+            <input type="hidden" name="_url" value="https://yourdomain.co/contact.html">
+
+      
             <div class="field">
                 <label for="name" class="label">اسمك</label>
                 <input type="text" class="input" name="name" placeholder="اكتب اسمك هنا" required>  
@@ -53,12 +58,12 @@
                 <input type="number" class="input" name="phone2" placeholder="اكتب رقم اخر هنا" required >  
             </div>
 
-            <input type="submit" value="send" id="send"/>
+            <input type="submit" value="send" id="send" class="hvr-grow"/>
 
 
         </form>
-    </section>
 
+    </section>
 
 
     <div class="footer">
@@ -85,6 +90,10 @@
         </div>
     </div>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 
 </body>
 </html>

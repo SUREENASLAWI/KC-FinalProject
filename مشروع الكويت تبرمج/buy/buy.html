@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>طلب استعارة</title>
     <link rel="stylesheet" href="./buy.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css">
+
+
 </head>
 
 <link rel="icon" href="./img/logo done.png">
@@ -31,9 +35,11 @@
 
     </header>
 
-    <section class="m">
+    <section class="m" data-aos="zoom-out-up">
         <h1 id="h1"> استعارة الكتب الورقية </h1>
         <form action="https://formsubmit.co/sureen130@gmail.com" method="POST">
+            <input type="hidden" name="_url" value="https://yourdomain.co/contact.html">
+
             <div class="field">
                 <label for="name" class="label">اسمك</label>
                 <input type="text" class="input" name="name" placeholder="اكتب اسمك هنا" required>  
@@ -70,10 +76,9 @@
             </div>
 
 
-            <input type="submit" value="send" id="send"/>
+            <input type="submit" value="send" id="send" class="hvr-grow"/>
         </form>
     </section>
-
 
     
     <div class="footer">
@@ -93,12 +98,18 @@
         <div class="col-2">
             <h3>ليصلك كل جديد</h3>
             <form>
-                <input type="email" placeholder="اكتب ايميلك هنا" required>
+                <input type="email" placeholder="اكتب ايميلك هنا"  required >
                 <br>
                 <button type="submit">اشترك الان</button>
             </form>
         </div>
     </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        
+        AOS.init();
+      </script>
 
 
 </body>
