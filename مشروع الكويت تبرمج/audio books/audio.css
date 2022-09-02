@@ -134,6 +134,7 @@ form button{
     text-align: center;
     padding: 20px;
     background-color: #efbec6af;
+    box-shadow: 6px 6px 6px #e3a5afaf;
 }
 
 .btn-b{

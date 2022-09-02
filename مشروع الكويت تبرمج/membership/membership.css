@@ -69,7 +69,6 @@ nav{
     padding: 30px 13%;
     background-color:#efbec6af ;
     display: flex;
-    
 }
 
 .footer div{
@@ -130,6 +129,8 @@ form button{
     margin: 100px;
     padding: 40px;
     border: 10px solid black;
+    box-shadow: 9px 9px 9px #000000ad;
+
 }
 
 form{
